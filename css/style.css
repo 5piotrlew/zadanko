@@ -43,47 +43,56 @@ nav#menu ul li.menu-item a:hover {
 
 header#main-header {
     height: 900px;
-    border: 2px solid red;
+    background-image: url(../img/desk.jpg);
+    background-position: center;
+    background-size: contain;    
 }
 
 header#main-header .header-images {
-
-    border: 2px solid blue;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 85%;
+    position: relative;
 }
 
-header#main-header .header-images img {}
+header#main-header .header-images img {
+    opacity: 0.4;
+    
+}
 
 header#main-header .header-images div {
-    display: block;
-    width: 200px;
-    height: 200px;
     -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
     clip-path: polygon(100% 0, 0 0, 100% 100%);
-    background-color: red;
-    z-index: 100;
-    position: absolute;
+    display: block;
+    width: 300px;
+    height: 260px;
     opacity: 0.5;
-    top: 20px;
-
+    position: absolute;
+    background-color: #ff0080;
+    margin-top: 72px;
+   
 }
 
-header#main-header .scroll-down-icon {
+header#main-header .scroll-down-icon {  
+    display: block;
+    position: relative;
+    height: 15%;
+    margin: auto;
+    width: auto;
     text-align: center;
 }
 
 header#main-header .scroll-down-icon a {
-    color: black;
-    bottom: 0;
-    position: absolute;
-    border: 2px solid black;
+    color: #ff0080; 
+    padding-left: 20px;
+    
 }
 
 header#main-header .scroll-down-icon a i {
-    font-size: 10em;
+    font-size: 7em;
+    font-weight: 100;
+    padding: 0;
 }
 
 /*Main-header - Stop*/
