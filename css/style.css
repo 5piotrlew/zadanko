@@ -11,6 +11,7 @@ body {
 
 nav#menu {
     width: 100%;
+    font-weight: bold;
 }
 
 nav#menu ul {
@@ -21,6 +22,7 @@ nav#menu ul {
 
 nav#menu ul li.menu-item:nth-child(1) {
     float: left;
+    font-weight: bold;
 }
 
 nav#menu ul li.menu-item {
@@ -34,7 +36,8 @@ nav#menu ul li.menu-item a {
 }
 
 nav#menu ul li.menu-item a:hover {
-    color: #bbb;
+    color: #333;
+    
 }
 
 /*Main-nav - Stop*/
@@ -54,11 +57,13 @@ header#main-header .header-images {
     align-items: center;
     height: 85%;
     position: relative;
+    width: 100%;
 }
 
 header#main-header .header-images img {
-    opacity: 0.4;
     
+    height: auto;
+    width: auto;    
 }
 
 header#main-header .header-images div {
@@ -70,8 +75,7 @@ header#main-header .header-images div {
     opacity: 0.5;
     position: absolute;
     background-color: #ff0080;
-    margin-top: 72px;
-   
+    margin-top: 72px;   
 }
 
 header#main-header .scroll-down-icon {  
