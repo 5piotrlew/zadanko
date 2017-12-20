@@ -4,9 +4,10 @@
 }
 
 body {
-    margin: 0 auto;    
+    margin: 0 10%;
 }
 
+/*Main-nav - Start*/
 
 nav#menu {
     width: 100%;
@@ -18,7 +19,7 @@ nav#menu ul {
     list-style: none;
 }
 
-nav#menu ul li.menu-item:nth-child(1){
+nav#menu ul li.menu-item:nth-child(1) {
     float: left;
 }
 
@@ -35,3 +36,29 @@ nav#menu ul li.menu-item a {
 nav#menu ul li.menu-item a:hover {
     color: #bbb;
 }
+
+/*Main-nav - Stop*/
+
+/*Main-header - Start*/
+
+header#main-header {
+    height: 900px;
+    border: 2px solid red;
+}
+
+header#main-header .scroll-down-icon {
+    text-align: center;    
+}
+
+header#main-header .scroll-down-icon a {
+    color: black;
+    bottom: 0;   
+    position: absolute;
+    border: 2px solid black;
+}
+
+header#main-header .scroll-down-icon a i {
+    font-size: 10em;
+}
+
+/*Main-header - Stop*/
