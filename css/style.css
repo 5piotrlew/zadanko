@@ -22,7 +22,6 @@ header, section {
 
 .col-lg-4 {
     width: 33.3%;
-    border: 2px solid red;
     height: inherit;
     float: left;
     text-align: center;
@@ -30,7 +29,6 @@ header, section {
 
 .col-lg-8 {
     width: 66.6%;
-    border: 2px solid black;
     height: inherit;
     float: left;
 }
