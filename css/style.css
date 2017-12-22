@@ -25,6 +25,7 @@ header, section {
     border: 2px solid red;
     height: inherit;
     float: left;
+    text-align: center;
 }
 
 .col-lg-8 {
@@ -143,7 +144,7 @@ header#main-header .scroll-down-icon a i {
 }
 
 #our-story .col-lg-4 {
-    text-align: center;
+    
 }
 
 #our-story .col-lg-8 {
