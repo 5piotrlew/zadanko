@@ -148,7 +148,7 @@ header#main-header .scroll-down-icon a i {
 }
 
 #our-story .col-lg-8 {
-    background-image: url(../img/green.jpg);
+    background-image: url(../img/1.jpg);
     background-position: center;
     background-size: cover; 
 }
@@ -162,7 +162,7 @@ header#main-header .scroll-down-icon a i {
 }
 
 #fresh-fare .col-lg-8 {
-    background-image: url(../img/green.jpg);
+    background-image: url(../img/2.jpg);
     background-position: center;
     background-size: cover; 
 }
@@ -172,13 +172,13 @@ header#main-header .scroll-down-icon a i {
 }
 
 #local-distillation .col-lg-8 {
-    background-image: url(../img/green.jpg);
+    background-image: url(../img/3.jpg);
     background-position: center;
     background-size: cover; 
 }
 
 #paralax {
-    background-image: url(../img/green.jpg);
+    background-image: url(../img/4.jpg);
     background-position: center;
     background-size: cover; 
     background-attachment: fixed;
