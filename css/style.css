@@ -5,7 +5,36 @@
 
 body {
     margin: 0 10%;
+    background-color: bisque;
+    background-image: url(../img/j.jpg);
+    background-position: center;
+    background-size: cover; 
 }
+
+#container{
+    margin-top: 150px;
+}
+
+/* General styles - Start*/
+header, section {
+    height: 900px;
+}
+
+.col-lg-4 {
+    width: 33.3%;
+    border: 2px solid red;
+    height: inherit;
+    float: left;
+}
+
+.col-lg-8 {
+    width: 66.6%;
+    border: 2px solid black;
+    height: inherit;
+    float: left;
+}
+
+/* General styles - Stop */
 
 /*Main-nav - Start*/
 
@@ -44,10 +73,10 @@ nav#menu ul li.menu-item a:hover {
 /*Main-header - Start*/
 
 header#main-header {
-    height: 900px;
-    background-image: url(../img/desk.jpg);
+    margin-top: -70px;
+    background-image: url(../img/jj.jpg);
     background-position: center;
-    background-size: contain;    
+    background-size: cover;    
 }
 
 header#main-header .header-images {
@@ -59,13 +88,12 @@ header#main-header .header-images {
     width: 100%;
 }
 
-header#main-header .header-images img {
-    
+header#main-header .header-images img {    
     height: auto;
     width: auto;    
 }
 
-header#main-header .header-images div {
+header#main-header .header-images .triangle-opacity {
     -webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
     clip-path: polygon(100% 0, 0 0, 100% 100%);
     display: block;
@@ -86,6 +114,16 @@ header#main-header .scroll-down-icon {
     text-align: center;
 }
 
+header#main-header .scroll-down-icon:hover {
+    animation: arrow 1s infinite;
+}
+
+@keyframes arrow {
+    0% {padding-top: 0px;}
+    50% {padding-top: 25px;}
+    100% {padding-top: 0px;}
+}
+
 header#main-header .scroll-down-icon a {
     color: #ff0080; 
     padding-left: 20px;
@@ -99,3 +137,23 @@ header#main-header .scroll-down-icon a i {
 }
 
 /*Main-header - Stop*/
+
+/* Our-story - section - Start */
+
+#our-story {
+    
+}
+
+#our-story .col-lg-4 {
+    text-align: center;
+}
+
+#our-story .col-lg-8 {
+    background-image: url(../img/ourstory.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+
+
+/* Our-story - section - Stop */
