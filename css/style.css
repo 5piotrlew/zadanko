@@ -156,3 +156,35 @@ header#main-header .scroll-down-icon a i {
 
 
 /* Our-story - section - Stop */
+
+#fresh-fare {
+    
+}
+
+#fresh-fare .col-lg-8 {
+    background-image: url(../img/green.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+#local-distillation {
+    
+}
+
+#local-distillation .col-lg-8 {
+    background-image: url(../img/green.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+
+#paralax {
+    background-image: url(../img/green.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+footer#contact {
+    height: 300px;
+}
+
