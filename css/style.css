@@ -5,7 +5,6 @@
 
 body {
     margin: 0 10%;
-    background-color: bisque;
     background-image: url(../img/j.jpg);
     background-position: center;
     background-size: cover; 
@@ -53,6 +52,24 @@ nav#menu ul li.menu-item:nth-child(1) {
     font-weight: bold;
 }
 
+/*nav#menu ul li.menu-item:nth-child(1)::after {
+    content:'';
+    background-color: red;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    
+}
+
+nav#menu ul li.menu-item:nth-child(1)::before {
+    content: '';
+    background-color: white;
+position: relative;
+    width: 50px;
+    height: 25px;
+}*/
+
 nav#menu ul li.menu-item {
     display: inline-block;
     padding: 25px;
@@ -60,11 +77,11 @@ nav#menu ul li.menu-item {
 
 nav#menu ul li.menu-item a {
     text-decoration: none;
-    color: #000;
+    color: #ff0080;
 }
 
 nav#menu ul li.menu-item a:hover {
-    color: #333;    
+    color: #ff119;    
 }
 
 /*Main-nav - Stop*/
