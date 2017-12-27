@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     transition: all .3s;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -26,6 +27,18 @@ header, section {
     text-align: center;
 }
 
+.col-lg-4 *:not(span) {
+    position: relative;
+    display: inline-block;
+    top: 50%;
+    transform: (-50%);
+}
+
+.col-lg-4 p {
+    font-weight: 300;
+}
+
+
 .col-lg-8 {
     width: 66.6%;
     height: inherit;
@@ -49,9 +62,29 @@ nav#menu ul {
 
 nav#menu ul li.menu-item:nth-child(1) {
     float: left;
-    font-weight: bold;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2.5em;
 }
 
+.polish-flag {
+    display: block;
+    width: 40px;
+    height: 25px;
+    background-color: red;
+    margin: 0 auto;    
+}
+
+
+
+
+.polish-flag::after {
+    content: '';
+    display: block;
+    height: 12.5px;
+    width: 40px;
+    background-color: white;
+}
 /*nav#menu ul li.menu-item:nth-child(1)::after {
     content:'';
     background-color: red;
@@ -73,6 +106,8 @@ position: relative;
 nav#menu ul li.menu-item {
     display: inline-block;
     padding: 25px;
+    font-weight: 700;
+    font-size: 0.8em;
 }
 
 nav#menu ul li.menu-item a {
@@ -81,7 +116,7 @@ nav#menu ul li.menu-item a {
 }
 
 nav#menu ul li.menu-item a:hover {
-    color: #ff119;    
+    color: #99004c;   
 }
 
 /*Main-nav - Stop*/
@@ -126,6 +161,7 @@ header#main-header .scroll-down-icon {
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    top: -50px;
 }
 
 header#main-header .scroll-down-icon:hover {
@@ -165,7 +201,8 @@ header#main-header .scroll-down-icon a i {
 #our-story .col-lg-8 {
     background-image: url(../img/1.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 
@@ -199,7 +236,34 @@ header#main-header .scroll-down-icon a i {
     background-attachment: fixed;
 }
 
-footer#contact {
+#contact {
     height: 300px;
 }
 
+#contact .col-lg-4 * {
+    transform: none;
+}
+
+#contact .contact-data {
+    text-align: left;
+}
+
+#contact .contact-data h2 {
+    text-align: center;
+}
+
+#contact .col-lg-8 a {
+    float: right;
+    position: relative;
+    top: 80%;
+    color: #ff0080;
+    padding-right: 10px;
+}
+
+#contact .col-lg-8 a:hover {
+    color: #99004c;
+}
+
+h3 {
+    margin-top: 300px;
+}
