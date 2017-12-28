@@ -249,12 +249,24 @@ header#main-header .scroll-down-icon a i {
     transform: none;
 }
 
+#contact .col-lg-4.contact-data .polish-flag {
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 56px;
+}
+
 #contact .contact-data {
     text-align: left;
+    padding-left: 40px;
 }
 
 #contact .contact-data h2 {
     text-align: center;
+    top: 20px;
+}
+
+#contact .col-lg-8 {
+    padding-right: 40px;
 }
 
 #contact .col-lg-8 a {
