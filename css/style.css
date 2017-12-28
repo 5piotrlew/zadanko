@@ -8,15 +8,18 @@ body {
     margin: 0 10%;
     background-image: url(../img/j.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
 }
 
-#container{
+#container {
     margin-top: 150px;
 }
 
+
 /* General styles - Start*/
-header, section {
+
+header,
+section {
     height: 900px;
 }
 
@@ -38,14 +41,38 @@ header, section {
     font-weight: 300;
 }
 
-
 .col-lg-8 {
     width: 66.6%;
     height: inherit;
     float: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+.polish-flag {
+    display: block;
+    width: 40px;
+    height: 25px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+.polish-flag::after {
+    content: '';
+    display: block;
+    height: 12.5px;
+    width: 40px;
+    background-color: white;
+}
+
+h3 {
+    margin-top: 300px;
+}
+
+
 /* General styles - Stop */
+
 
 /*Main-nav - Start*/
 
@@ -67,42 +94,6 @@ nav#menu ul li.menu-item:nth-child(1) {
     font-size: 2.5em;
 }
 
-.polish-flag {
-    display: block;
-    width: 40px;
-    height: 25px;
-    background-color: red;
-    margin: 0 auto;    
-}
-
-
-
-
-.polish-flag::after {
-    content: '';
-    display: block;
-    height: 12.5px;
-    width: 40px;
-    background-color: white;
-}
-/*nav#menu ul li.menu-item:nth-child(1)::after {
-    content:'';
-    background-color: red;
-    position: relative;
-    width: 50px;
-    height: 50px;
-    z-index: 100;
-    
-}
-
-nav#menu ul li.menu-item:nth-child(1)::before {
-    content: '';
-    background-color: white;
-position: relative;
-    width: 50px;
-    height: 25px;
-}*/
-
 nav#menu ul li.menu-item {
     display: inline-block;
     padding: 25px;
@@ -116,10 +107,12 @@ nav#menu ul li.menu-item a {
 }
 
 nav#menu ul li.menu-item a:hover {
-    color: #99004c;   
+    color: #99004c;
 }
 
+
 /*Main-nav - Stop*/
+
 
 /*Main-header - Start*/
 
@@ -127,7 +120,7 @@ header#main-header {
     margin-top: -70px;
     background-image: url(../img/test.jpg);
     background-position: center;
-    background-size: cover;    
+    background-size: cover;
 }
 
 header#main-header .header-images {
@@ -139,9 +132,9 @@ header#main-header .header-images {
     width: 100%;
 }
 
-header#main-header .header-images img {    
+header#main-header .header-images img {
     height: auto;
-    width: auto;    
+    width: auto;
 }
 
 header#main-header .header-images .triangle-opacity {
@@ -153,10 +146,10 @@ header#main-header .header-images .triangle-opacity {
     opacity: 0.5;
     position: absolute;
     background-color: #ff0080;
-    margin-top: 72px;   
+    margin-top: 72px;
 }
 
-header#main-header .scroll-down-icon {  
+header#main-header .scroll-down-icon {
     display: inline-block;
     position: relative;
     left: 50%;
@@ -169,15 +162,20 @@ header#main-header .scroll-down-icon:hover {
 }
 
 @keyframes arrow {
-    0% {padding-top: 0px;}
-    50% {padding-top: 25px;}
-    100% {padding-top: 0px;}
+    0% {
+        padding-top: 0px;
+    }
+    50% {
+        padding-top: 25px;
+    }
+    100% {
+        padding-top: 0px;
+    }
 }
 
 header#main-header .scroll-down-icon a {
-    color: #ff0080; 
+    color: #ff0080;
     padding-left: 20px;
-    
 }
 
 header#main-header .scroll-down-icon a i {
@@ -186,55 +184,62 @@ header#main-header .scroll-down-icon a i {
     padding: 0;
 }
 
+
 /*Main-header - Stop*/
+
 
 /* Our-story - section - Start */
 
-#our-story {
-    
-}
+#our-story {}
 
-#our-story .col-lg-4 {
-    
-}
+#our-story .col-lg-4 {}
 
 #our-story .col-lg-8 {
     background-image: url(../img/1.jpg);
-    background-position: center;
-    background-size: auto;
-    background-repeat: no-repeat;
 }
-
 
 
 /* Our-story - section - Stop */
 
-#fresh-fare {
-    
-}
+
+/*Fresh fare - Section - Start*/
+
+#fresh-fare {}
 
 #fresh-fare .col-lg-8 {
     background-image: url(../img/2.jpg);
-    background-position: center;
-    background-size: cover; 
 }
 
-#local-distillation {
-    
-}
+
+/*Fresh fare - Section - Stop*/
+
+
+/*Local-distillation - Section - Start*/
+
+#local-distillation {}
 
 #local-distillation .col-lg-8 {
     background-image: url(../img/3.jpg);
-    background-position: center;
-    background-size: cover; 
 }
+
+
+/*Local-distillation - Section - Stop*/
+
+
+/*Paralax effect - Section - Start*/
 
 #paralax {
     background-image: url(../img/4.jpg);
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     background-attachment: fixed;
 }
+
+
+/*Paralax effect - Section - Stop*/
+
+
+/*Section contact  - Start*/
 
 #contact {
     height: 300px;
@@ -264,6 +269,5 @@ header#main-header .scroll-down-icon a i {
     color: #99004c;
 }
 
-h3 {
-    margin-top: 300px;
-}
+
+/*Section contact  - Stop*/
