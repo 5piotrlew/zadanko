@@ -135,6 +135,7 @@ header#main-header .header-images {
 header#main-header .header-images img {
     height: auto;
     width: auto;
+    position: absolute;
 }
 
 header#main-header .header-images .triangle-opacity {
